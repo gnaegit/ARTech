@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.0.3">
+        <ModelTarget name="textured" targetId="6e3a3dc08123445582c85a9bd4a6d584" version="13.0" toolVersion="v6.0.3" bbox="-0.597885 -1.090612 -0.469224 0.309864 0.558305 0.689605" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+    </TargetSet>
+    <Assembly name="textured" assemblyId="f98e652f07a44c1096ec1da985f80496">
+        <Part name="textured" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
