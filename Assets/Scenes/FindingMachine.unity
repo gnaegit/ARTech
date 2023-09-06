@@ -551,6 +551,7 @@ GameObject:
   - component: {fileID: 951499349}
   - component: {fileID: 951499348}
   - component: {fileID: 951499347}
+  - component: {fileID: 951499351}
   m_Layer: 0
   m_Name: ModelTarget
   m_TagString: Untagged
@@ -617,7 +618,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -1310365002191746097, guid: 9b25282472baf9c43b980b281cd9976a, type: 3}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadMyScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Checklist
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -679,6 +692,18 @@ Transform:
   - {fileID: 1719426350}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951499351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951499346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570a5bb6dc05f2c4c8ae65c092d1dc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1270520705
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,6 +717,7 @@ GameObject:
   - component: {fileID: 1270520708}
   - component: {fileID: 1270520707}
   - component: {fileID: 1270520706}
+  - component: {fileID: 1270520711}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -799,6 +825,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1270520711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270520705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570a5bb6dc05f2c4c8ae65c092d1dc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1473047035
 GameObject:
   m_ObjectHideFlags: 0
