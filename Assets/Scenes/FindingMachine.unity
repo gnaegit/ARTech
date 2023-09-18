@@ -813,7 +813,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_Name
-      value: Mashine Target Singleton
+      value: Machine Target Singleton
       objectReference: {fileID: 0}
     - target: {fileID: 790356754616850537, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: mHiddenRoot
@@ -823,10 +823,26 @@ PrefabInstance:
       propertyPath: mModelTargetPreview
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1330332138082323630, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_Name
+      value: Machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4538666909927328120, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: switchObject
+      value: 
+      objectReference: {fileID: 3468635782757251958}
     - target: {fileID: 4538666909927328120, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: InstructionMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 4645fc9e18cb1264e932f2a8471ccdd1, type: 2}
+    - target: {fileID: 7085642481134100943, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: defaultMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 32a76832b79e84347ad9df08b12709c3, type: 2}
+    - target: {fileID: 7085642481134100943, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: directionOfRotationOn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -867,7 +883,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 834704200257158120, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -875,6 +892,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+--- !u!114 &3468635782757251958 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7085642481134100943, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+  m_PrefabInstance: {fileID: 3468635782757251957}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1a146b9e94d904696f188759177e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

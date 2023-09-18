@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 790356754616850537}
   - component: {fileID: 969965399595112904}
   m_Layer: 0
-  m_Name: Mashine Target Singleton
+  m_Name: Machine Target Singleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
