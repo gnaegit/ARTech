@@ -15,6 +15,6 @@ public class PowerOnSceneSetup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        MachineModel model = MachineTargetSingleton.Instance.machineTargetRepresentation.model;
     }
 }

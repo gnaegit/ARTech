@@ -39,6 +39,6 @@ public class MachineModel : MonoBehaviour
 
     public void SimulatePowerSwitchOn()
     {
-        switchObject.r
+        
     }
 }
