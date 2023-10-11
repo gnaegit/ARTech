@@ -12,7 +12,7 @@ public class LoadFirstScene : MonoBehaviour
     {
         Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
         SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
-        CallAfterDelay.Create(0, () => {
+        CallAfterDelay.Create(0.1f, () => {
             SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
             Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
         });
