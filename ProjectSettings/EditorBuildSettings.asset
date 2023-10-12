@@ -18,10 +18,16 @@ EditorBuildSettings:
     path: Assets/Scenes/GoToBack.unity
     guid: 595fbf68bc46da144aea23bcf7b3a46a
   - enabled: 1
-    path: Assets/Scenes/Checklist.unity
+    path: Assets/Scenes/ChecklistWater.unity
     guid: d5b35efc6ebd2d24095695fffc2f6009
   - enabled: 1
     path: Assets/Scenes/PowerOn.unity
     guid: f009eae1adb18774e9250c775f9330d1
+  - enabled: 1
+    path: Assets/Scenes/GoToFront.unity
+    guid: 07c686dfe0fd9fa45b1de9a7229c7cf5
+  - enabled: 1
+    path: Assets/Scenes/ChecklistCurrent.unity
+    guid: b460e3eeb4ac33242b78312f022e759a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}
