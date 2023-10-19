@@ -348,6 +348,95 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &830981425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+  m_PrefabInstance: {fileID: 3468635782757251957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &830981428 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+  m_PrefabInstance: {fileID: 3468635782757251957}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830981425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -75151077, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &830981430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830981425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 830981428}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: textured
+  mDatasetName: Vuforia/Maschine2.xml
+  mCastedBehaviour: {fileID: 830981428}
+  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &830981431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830981425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 830981428}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: textured
+  mDatasetName: Vuforia/Maschine2.xml
+  mCastedBehaviour: {fileID: 830981428}
+  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelTargetPreview: {fileID: 0}
+--- !u!1 &1249371905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249371906}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1249371906
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249371905}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3468635782757251959}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.142, y: -0.22}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1473047035
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gehen Sie bitte zu der Maschine und scannen Sie die Maschine.
+  m_text: Scannen Sie den Hochdruckhomogenisator von der Vorderseite.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -611,8 +700,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -893,6 +982,18 @@ PrefabInstance:
       propertyPath: onMachineIsTracked.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 830981431}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: RuntimeOcclusion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mShowBoundingBox
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -933,11 +1034,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8087895260334312491, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_text
+      value: 'Hochdruck-
+
+        Homogenisator'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087895260334312491, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087895260334312491, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9190047670901289676, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.16
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 834704200257158120, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+    - {fileID: 790356754616850537, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1249371906}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 830981430}
+    - targetCorrespondingSourceObject: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 830981431}
     - targetCorrespondingSourceObject: {fileID: 1475508347747047051, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -953,6 +1082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1a146b9e94d904696f188759177e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &3468635782757251959 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+  m_PrefabInstance: {fileID: 3468635782757251957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
