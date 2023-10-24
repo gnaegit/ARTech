@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WarningCooling.unity
     guid: a9ba9454c8e03e54c9de366c12436b95
+  - enabled: 1
+    path: Assets/Scenes/FillInMaterial.unity
+    guid: 88a011fcbb60afe449f7a5d84db061d4
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}

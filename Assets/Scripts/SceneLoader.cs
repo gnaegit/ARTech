@@ -8,10 +8,18 @@ public class SceneLoader : MonoBehaviour
         //SceneManager.LoadScene(sceneName);
         Debug.Log("Active scene before load: " + SceneManager.GetActiveScene().name);
         SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
-        SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
-        CallAfterDelay.Create(0.1f, () => {
-            SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
-            Debug.Log("Active scene after load: " + SceneManager.GetActiveScene().name);
+        AsyncOperation asyncOperation =  SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        asyncOperation.completed += new System.Action<AsyncOperation>(sender =>
+        {
+            OnLoadOperationComplete(sceneName);
         });
     }
+
+    void OnLoadOperationComplete(string sceneName)
+    {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneName));
+        Debug.Log("Active scene after load: " + SceneManager.GetActiveScene().name);
+    }
 }
+
+

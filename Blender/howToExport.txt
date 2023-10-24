@@ -1,0 +1,5 @@
+Make Empty visible but children invisible
+Export fbx
+Batch mode Off
+Limit to Visible Objects 
+Object Types Empty and Mesh
