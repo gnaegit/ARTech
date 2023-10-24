@@ -16,8 +16,7 @@ public class PowerOnSceneSetup : MonoBehaviour
         switchSimulator = new SwitchSimulator(switchObject);
         switchSimulator.StartPowerOnSimulation();
 
-        switchObject.SetActive(true);
-        switchObject.SetMaterial(model.InstructionMaterial);
+        switchObject.SetMaterial(model.instructionMaterial);
     }
 
     // Update is called once per frame
@@ -29,6 +28,5 @@ public class PowerOnSceneSetup : MonoBehaviour
     private void OnDestroy()
     {
         switchObject.SetDefaultMaterial();
-        switchObject.SetActive(false);
     }
 }

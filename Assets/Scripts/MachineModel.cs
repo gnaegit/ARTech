@@ -7,18 +7,22 @@ public class MachineModel : MonoBehaviour
     public GameObject mainPart;
     public GameObject block;
     public GameObject frame;
+    public GameObject funnel;
     public Switch switchObject;
-    public Material InstructionMaterial;
+    public Material defaultMaterial;
+    public Material instructionMaterial;
 
     // Start is called before the first frame update
     void Start()
     {
-        switchObject.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
+
+

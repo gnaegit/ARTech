@@ -12,6 +12,7 @@ public enum DirectionOfRotation:int
 public class Switch : MonoBehaviour
 {
     public Material defaultMaterial;
+    public GameObject switchFrame;
     public GameObject switchKnob;
     public float offPosition;
     public float onPosition;
@@ -31,7 +32,7 @@ public class Switch : MonoBehaviour
 
     public void SetActive(bool activate)
     {
-        gameObject.SetActive(activate);
+        switchFrame.SetActive(activate);
     }
 
     public void SetDefaultMaterial()
@@ -41,8 +42,8 @@ public class Switch : MonoBehaviour
 
     public void SetMaterial(Material newMaterial)
     {
-        Renderer[] childrenRenderer = gameObject.GetComponentsInChildren<Renderer>();
-        gameObject.GetComponent<Renderer>().material = newMaterial;
+        Renderer[] childrenRenderer = switchFrame.GetComponentsInChildren<Renderer>();
+        switchFrame.GetComponent<Renderer>().material = newMaterial;
         foreach (Renderer rend in childrenRenderer)
         {
             rend.material = newMaterial;
