@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TurnOn.unity
     guid: f1f12360d0223a247a077ab163dd2d48
+  - enabled: 1
+    path: Assets/Scenes/DeliveryCapacity.unity
+    guid: b4bd3dafea26487448a2c253c3cea62c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}
