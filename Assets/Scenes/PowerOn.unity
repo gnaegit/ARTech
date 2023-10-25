@@ -644,7 +644,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1550288932}
   - component: {fileID: 1550288933}
-  - component: {fileID: 1550288934}
   m_Layer: 0
   m_Name: SceneSetup
   m_TagString: Untagged
@@ -679,33 +678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8abc0902f117d54f98a056f4313c874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1550288934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550288931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb8eb092a9aab540b254a5bd7ffa6ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onMachineLost:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -1310365002191746097, guid: 9b25282472baf9c43b980b281cd9976a, type: 3}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadMyScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: FindingMachine
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1599817857
 GameObject:
   m_ObjectHideFlags: 0
