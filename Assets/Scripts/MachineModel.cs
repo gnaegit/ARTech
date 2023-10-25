@@ -8,7 +8,7 @@ public class MachineModel : MonoBehaviour
     public GameObject block;
     public GameObject frame;
     public GameObject funnel;
-    public Switch switchObject;
+    public GameObject switchObject;
     public Material defaultMaterial;
     public Material instructionMaterial;
 
