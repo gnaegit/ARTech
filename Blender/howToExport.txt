@@ -1,3 +1,4 @@
+Make Main Part Child of Empty
 Make Empty visible but children invisible
 Export fbx
 Batch mode Off
