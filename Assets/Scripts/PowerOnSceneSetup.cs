@@ -4,29 +4,22 @@ using UnityEngine;
 
 public class PowerOnSceneSetup : MonoBehaviour
 {
-    MachineModel model;
-    Switch switchObject;
-    SwitchSimulator switchSimulator;
-
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        model = MachineTargetSingleton.Instance.machineTargetRepresentation.model;
-        switchObject = model.switchObject;
-        switchSimulator = new SwitchSimulator(switchObject);
-        switchSimulator.StartPowerOnSimulation();
-
-        switchObject.SetMaterial(model.instructionMaterial);
+        animator = MachineTargetSingleton.Instance.machineTargetRepresentation.model.GetComponent<Animator>();
+        animator.SetTrigger("powerOnInstructionOn");
     }
 
     // Update is called once per frame
     void Update()
     {
-        switchSimulator.Update();
+
     }
 
-    private void OnDestroy()
+    void OnDestroy()
     {
-        switchObject.SetDefaultMaterial();
+        animator.SetTrigger("powerOnInstructionOff");
     }
 }
