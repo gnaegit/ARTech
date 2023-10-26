@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 2111754794}
   - component: {fileID: 2111754793}
   m_Layer: 0
-  m_Name: Setup
+  m_Name: Instruction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

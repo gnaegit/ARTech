@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 1159533550}
   - component: {fileID: 1159533551}
   m_Layer: 0
-  m_Name: SceneSetup
+  m_Name: Instruction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
