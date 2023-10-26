@@ -9,7 +9,7 @@ public class DeliveryCapacityInstuction : MonoBehaviour
     void Start()
     {
         animator = MachineTargetSingleton.Instance.machineTargetRepresentation.model.GetComponent<Animator>();
-        animator.SetTrigger("deliveryCapacityInstructionOn");
+        animator.SetTrigger("deliveryCapacityInstruction");
     }
 
     // Update is called once per frame
@@ -20,6 +20,6 @@ public class DeliveryCapacityInstuction : MonoBehaviour
 
     void OnDestroy()
     {
-        animator.SetTrigger("deliveryCapacityInstructionOff");
+        animator.SetTrigger("deliveryCapacityInstruction");
     }
 }
