@@ -9,7 +9,7 @@ public class FillInInstruction : MonoBehaviour
     void Start()
     {
         animator = MachineTargetSingleton.Instance.machineTargetRepresentation.model.GetComponent<Animator>();
-        animator.SetTrigger("highlightOn");
+        animator.SetTrigger("fillInInstruction");
     }
 
     // Update is called once per frame
@@ -20,6 +20,6 @@ public class FillInInstruction : MonoBehaviour
 
     void OnDestroy()
     {
-        animator.SetTrigger("highlightOff");
+        animator.SetTrigger("fillInInstruction");
     }
 }

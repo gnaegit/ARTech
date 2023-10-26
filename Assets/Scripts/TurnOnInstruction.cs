@@ -9,7 +9,7 @@ public class TurnOnInstruction : MonoBehaviour
     void Start()
     {
         animator = MachineTargetSingleton.Instance.machineTargetRepresentation.model.GetComponent<Animator>();
-        animator.SetTrigger("startInstructionOn");
+        animator.SetTrigger("startInstruction");
     }
 
     // Update is called once per frame
@@ -20,6 +20,6 @@ public class TurnOnInstruction : MonoBehaviour
 
     void OnDestroy()
     {
-        animator.SetTrigger("startInstructionOff");
+        animator.SetTrigger("startInstruction");
     }
 }

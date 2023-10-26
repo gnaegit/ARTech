@@ -9,7 +9,7 @@ public class PumpPressureInstruction : MonoBehaviour
     void Start()
     {
         animator = MachineTargetSingleton.Instance.machineTargetRepresentation.model.GetComponent<Animator>();
-        animator.SetTrigger("pumpPressureInstructionOn");
+        animator.SetTrigger("pumpPressureInstruction");
     }
 
     // Update is called once per frame
@@ -20,6 +20,6 @@ public class PumpPressureInstruction : MonoBehaviour
 
     void OnDestroy()
     {
-        animator.SetTrigger("pumpPressureInstructionOff");
+        animator.SetTrigger("pumpPressureInstruction");
     }
 }
