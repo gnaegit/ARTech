@@ -74,5 +74,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CleaningTurnOff.unity
     guid: af8143cce49176e41bbb854093783f93
+  - enabled: 1
+    path: Assets/Scenes/CleaningTakeOffParts.unity
+    guid: 9c7df0396f0a50b428dc1f954aeb0998
+  - enabled: 1
+    path: Assets/Scenes/CleaningReattachParts.unity
+    guid: e0e35de60d05eee4d9415e6b1b7f4300
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}
