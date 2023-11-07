@@ -338,7 +338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1159533547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ba84fc97009b7d4db90c8bdc1d1938a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3147ebbabecb9894f99167a02db40494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1360876128
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Maschine mit der Starttaste starten.
+  m_text: "F\xF6rderleistung auf 50 l / h einstellen. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -503,8 +503,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -873,7 +873,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DeliveryCapacity
+          m_StringArgument: CleaningMachinePower
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1850059259

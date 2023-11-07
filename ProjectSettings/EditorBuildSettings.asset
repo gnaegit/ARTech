@@ -69,7 +69,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CleaningInformation.unity
     guid: 648d19225f20a9a418c7e7ebeed5a3de
   - enabled: 1
-    path: Assets/Scenes/CleaningWashUpBeginning.unity
+    path: Assets/Scenes/CleaningFlushBeginning.unity
     guid: 906217d0946e0e141b11aa8dd4a18d12
   - enabled: 1
     path: Assets/Scenes/CleaningTurnOff.unity
@@ -83,5 +83,41 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CleaningFunnel.unity
     guid: af9bcb5612b3ae34590484cfcbc91b3d
+  - enabled: 1
+    path: Assets/Scenes/CleaningTurnOn.unity
+    guid: af96a990fb525b74488d92e778dc5b2f
+  - enabled: 1
+    path: Assets/Scenes/CleaningCirculation.unity
+    guid: 97fe748f764208a4e89bcfc50a779d20
+  - enabled: 1
+    path: Assets/Scenes/CleaningDeliveryCapacity.unity
+    guid: 41d0827203d4c754e960f4f92f789ad0
+  - enabled: 1
+    path: Assets/Scenes/TurnOff.unity
+    guid: 683423eb8f16c91458893b713d491a61
+  - enabled: 1
+    path: Assets/Scenes/CleaningFlushEnd.unity
+    guid: 853f57f6bcb66fd4789ab85fe87e5aff
+  - enabled: 1
+    path: Assets/Scenes/PowerOff.unity
+    guid: a93727bb2bcadb14c8a072759b0bb16f
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: bed890976878cf34ebebb6bf9e28f114
+  - enabled: 1
+    path: Assets/Scenes/GoToBackEnd.unity
+    guid: 13aaf2a5393b493448cf3cb64b293f4e
+  - enabled: 1
+    path: Assets/Scenes/StopWater.unity
+    guid: 363d372a2d5a2d04ab686b25773dd9e0
+  - enabled: 1
+    path: Assets/Scenes/CleaningOutlet.unity
+    guid: 6dfb6bffdbcc165498e6789e427b9b20
+  - enabled: 1
+    path: Assets/Scenes/CleaningMachinePower.unity
+    guid: 04c3f7471caa5514893b2991bb063da1
+  - enabled: 1
+    path: Assets/Scenes/CleaningPumpPressure.unity
+    guid: 53bafa70695861142832d7de09518654
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}

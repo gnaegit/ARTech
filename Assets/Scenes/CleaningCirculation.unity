@@ -338,7 +338,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1159533547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b5e59eac78f4f408ec637d1af07233, type: 3}
+  m_Script: {fileID: 11500000, guid: 7064d6688bf6250408cd8ae223cea166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1360876128
@@ -476,7 +476,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Maschine mit Wasser sp\xFClen."
+  m_text: 'Am Produktauslauf den Hahn auf Zirkulation stellen.
+
+    Mindestens 30
+    Minuten zirkulieren lassen.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -503,8 +506,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -539,7 +542,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -46.05774, y: -295.26898, z: -298.13745, w: 76.75119}
+  m_margin: {x: -46.05774, y: -295.26898, z: -298.13745, w: 93.866394}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -873,7 +876,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CleaningTurnOff
+          m_StringArgument: CleaningOutlet
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1850059259
