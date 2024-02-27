@@ -283,7 +283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4435240180776551733, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: ProductOutlet
+      value: WarningFunnel
       objectReference: {fileID: 0}
     - target: {fileID: 4705946405670374311, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_Name

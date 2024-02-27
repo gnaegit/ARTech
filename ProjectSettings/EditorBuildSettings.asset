@@ -119,5 +119,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CleaningPumpPressure.unity
     guid: 53bafa70695861142832d7de09518654
+  - enabled: 1
+    path: Assets/Scenes/WarningFunnel.unity
+    guid: da35be043871b3a49aab42726cc973f3
+  - enabled: 1
+    path: Assets/Scenes/HomogenizingInformation.unity
+    guid: 428237dc2ee9d6a4994a361d9f21b35a
+  - enabled: 1
+    path: Assets/Scenes/ReducePressureStage.unity
+    guid: 6264bf40a2d83894780f4d57ee96879c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}
