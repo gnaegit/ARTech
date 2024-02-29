@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringTable
+  m_TableCollectionNameGuidString: a0509a02e4cd79442b616f907fe12e7c
+  m_Entries:
+  - m_Id: 547184189440
+    m_Key: "W\xE4hle den gew\xFCnschten Schritt:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7586035802112
+    m_Key: Beispiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9171696623616
+    m_Key: Maschine finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9465679585280
+    m_Key: Inbetriebnahme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9638933700608
+    m_Key: Einschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9955196805120
+    m_Key: "Material \xFCberpr\xFCfen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10248248631296
+    m_Key: "Material einf\xFCllen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10445737435136
+    m_Key: Starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10676378017792
+    m_Key: Durchfluss einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10943664234496
+    m_Key: Leistung einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11116247261184
+    m_Key: Pumpe einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11262305509376
+    m_Key: Zirkulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11467218231296
+    m_Key: Druck einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11633442693120
+    m_Key: Produktaustritt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11773687635968
+    m_Key: Reinigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12255365701632
+    m_Key: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12941960683520
+    m_Key: "Alarms Reset 2x dr\xFCcken. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14094756749312
+    m_Key: ChecklisCurrentInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713836019712
+    m_Key: ChecklistMaterialInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15597441654784
+    m_Key: ChooseHomogenizationStageInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16007699111936
+    m_Key: 1-Stufig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16356690370560
+    m_Key: 2-Stufig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16594071199744
+    m_Key: CirculationInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17101238050816
+    m_Key: CleaningCirculationInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17375801384960
+    m_Key: CleaningDeliveryCapacityInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17580508585984
+    m_Key: CleaningFlushInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18493910556672
+    m_Key: CleaningFlushEndInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18740669849600
+    m_Key: CleaningFunnelInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18904046379008
+    m_Key: CleaningInformationInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19076251918336
+    m_Key: CleaningMachinePowerInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19290698293248
+    m_Key: CleaningOutletInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19410068185088
+    m_Key: CleaningPumpPressureInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19570751971328
+    m_Key: CleaningReattachPartsInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19801518383104
+    m_Key: CleaningTakeOffPartsInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19963506597888
+    m_Key: CleaningTurnOffInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20158357184512
+    m_Key: CleaningTurnOnInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20323835060224
+    m_Key: DeliveryCapacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20474460905472
+    m_Key: EmergencyResetStartInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666941710336
+    m_Key: EndInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20806951772160
+    m_Key: FillInMaterialInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20969699155968
+    m_Key: FindingMachineInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21102008475648
+    m_Key: GoToBackInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21240269512704
+    m_Key: GoToBackEndInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21439356346368
+    m_Key: GoToFrontInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21621934399488
+    m_Key: HomogenizingInformationInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21833079857152
+    m_Key: MachinePowerInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21989250572288
+    m_Key: PowerOffInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22140186796032
+    m_Key: PowerOnInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22420496326656
+    m_Key: ProductOutletInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22594912264192
+    m_Key: PumpPressureInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22751909257216
+    m_Key: ReducePressureStageInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22932583096320
+    m_Key: SetUpMachineInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23107082919936
+    m_Key: StopWaterInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23278403461120
+    m_Key: TuneFirstStageInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23405436346368
+    m_Key: TuneSecondStageInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23539410804736
+    m_Key: TurnOffInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23671166476288
+    m_Key: TurnOnInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24039636082688
+    m_Key: WarningCoolingInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24350530478080
+    m_Key: WarningFunnelInstruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25494807912448
+    m_Key: ChecklistCurrentCheckCurrent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25938477195264
+    m_Key: ChecklistMaterialCheckViscosity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26236297945088
+    m_Key: Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26629656551424
+    m_Key: ChecklistMaterialCheckLength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26993088798720
+    m_Key: ChecklistWaterCheckConnection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27358181990400
+    m_Key: ChecklistWaterCheckOpening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27672335360000
+    m_Key: ChecklistWaterCheckOutlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44425266339840
+    m_Key: ChecklistWaterInstruction
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8229946338408923160
+  references:
+    version: 2
+    RefIds:
+    - rid: 8229946338408923160
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1709136838742

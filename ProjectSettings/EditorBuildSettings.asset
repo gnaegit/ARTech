@@ -135,4 +135,6 @@ EditorBuildSettings:
     path: Assets/Scenes/AlarmsResetStart.unity
     guid: f8f11ddf2fa8518439f1e164e7e6017e
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 661733f015e3bdf4baa3056076bf388f, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 62f911a110bf7ef409f47a1872d67a4a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5a3af94c5cc7a6143a760fed901db815, type: 2}
