@@ -133,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 698219606000682226, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_text
-      value: Produkttrichter und Rohrleitungen demontieren und von Hand reinigen
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 698219606000682226, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_fontSize
@@ -230,6 +230,10 @@ PrefabInstance:
     - target: {fileID: 6304575350346002693, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324128044361971308, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 19801518383104
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

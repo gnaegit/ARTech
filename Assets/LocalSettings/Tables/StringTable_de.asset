@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTable_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: a0509a02e4cd79442b616f907fe12e7c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 547184189440
+    m_Localized: "W\xE4hle den gew\xFCnschten Schritt:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7586035802112
+    m_Localized: Beispiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9171696623616
+    m_Localized: Maschine finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9465679585280
+    m_Localized: Inbetriebnahme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9638933700608
+    m_Localized: Einschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9955196805120
+    m_Localized: "Material \xFCberpr\xFCfen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10248248631296
+    m_Localized: "Material einf\xFCllen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10445737435136
+    m_Localized: Starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10676378017792
+    m_Localized: Durchfluss einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10943664234496
+    m_Localized: Leistung einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11116247261184
+    m_Localized: Pumpe einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11262305509376
+    m_Localized: Zirkulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11467218231296
+    m_Localized: Druck einstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11633442693120
+    m_Localized: Produktaustritt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11773687635968
+    m_Localized: Reinigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12255365701632
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12941960683520
+    m_Localized: "Alarms Reset 2x dr\xFCcken. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14094756749312
+    m_Localized: "Gehen Sie die obigen Punkte durch und stellen Sie sicher dass die
+      Maschine bereit ist f\xFCr die Inbetriebnahme."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14713836019712
+    m_Localized: "Sicherstellen, dass das zu verarbeitende Material maschineng\xE4ngig
+      ist."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15597441654784
+    m_Localized: "Abstufung der Homogenisierung w\xE4hlen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16007699111936
+    m_Localized: 1-Stufig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16356690370560
+    m_Localized: 2-Stufig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16594071199744
+    m_Localized: Am Produktauslauf den Hahn auf Zirkulation stellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17101238050816
+    m_Localized: 'Am Produktauslauf den Hahn auf Zirkulation stellen.
+
+      Mindestens
+      30 Minuten zirkulieren lassen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17375801384960
+    m_Localized: "F\xF6rderleistung auf 50 l / h einstellen. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17580508585984
+    m_Localized: "Trichter mit Wasser f\xFCllen um Maschine zu sp\xFClen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18493910556672
+    m_Localized: "Trichter mit Wasser f\xFCllen um Maschine nochmals zu sp\xFClen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18740669849600
+    m_Localized: "Trichter mit CIP-Lauge f\xFCllen (Halades CIP 452 Gebrauchsanweisung
+      beachten)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18904046379008
+    m_Localized: Die Maschine muss nach Gebrauch gereinigt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19076251918336
+    m_Localized: Leistung des Homogenisators auf das Maximum einstellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19290698293248
+    m_Localized: 'Am Produktauslauf den Hahn auf Austritt stellen. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19410068185088
+    m_Localized: "Leistung der F\xF6rderpumpe auf das Maximum einstellen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19570751971328
+    m_Localized: Gereinigte Teile wieder montieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19801518383104
+    m_Localized: Produkttrichter und Rohrleitungen demontieren und von Hand reinigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19963506597888
+    m_Localized: Maschine mit der Stopptaste stoppen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20158357184512
+    m_Localized: Maschine mit der Starttaste starten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20323835060224
+    m_Localized: "F\xF6rderleistung an den Reglern einstellen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20474460905472
+    m_Localized: "Emergency Reset dr\xFCcken. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20666941710336
+    m_Localized: Der Produktionsvorgang ist hiermit beendet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20806951772160
+    m_Localized: "Material in den Trichter einf\xFCllen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20969699155968
+    m_Localized: Scannen Sie den Hochdruckhomogenisator von der Vorderseite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21102008475648
+    m_Localized: "Gehen Sie bitte zu der R\xFCckseite der Maschine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21240269512704
+    m_Localized: "Gehen Sie bitte zu der R\xFCckseite der Maschine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21439356346368
+    m_Localized: Gehen Sie bitte zu der Vorderseite der Maschine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21621934399488
+    m_Localized: "Produkt homogenisieren bis gew\xFCnschte Konsistenz erreicht wird."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21833079857152
+    m_Localized: Leistung des Homogenisators einstellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21989250572288
+    m_Localized: Hauptschalter drehen, um die Maschine auszuschalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22140186796032
+    m_Localized: Hauptschalter drehen, um die Maschine einzuschalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22420496326656
+    m_Localized: Am Produktauslauf den Hahn auf Austritt stellen. Das homogenisierte
+      Produkt auffangen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22594912264192
+    m_Localized: "Leistung der F\xF6rderpumpe einstellen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22751909257216
+    m_Localized: Sobald das Produkt fertig homogenisiert ist, Druck auf Stufen 1
+      und 2 entfernen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22932583096320
+    m_Localized: Stellen Sie die Maschine im Nassbereich auf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23107082919936
+    m_Localized: Wasserzufuhr stoppen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23278403461120
+    m_Localized: Stufe 1 einstellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23405436346368
+    m_Localized: 'Stufe 2 einstellen.
+
+      Der Druck sollte maximal 20% des Gesamtdruckes
+      entsprechen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23539410804736
+    m_Localized: Maschine mit der Stopptaste stoppen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23671166476288
+    m_Localized: Maschine mit der Starttaste starten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24039636082688
+    m_Localized: "Das zu verarbeitende Material sollte so k\xFChl wie m\xF6glich
+      sein, Schaumbildung sollte vermieden werden. Luft im Produkt kann zu Kavit\xE4ten
+      f\xFChren und das Homogenisierventil besch\xE4digen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24350530478080
+    m_Localized: "W\xE4hrend dem homogenisieren (Druck auf Stufe 1 und 2) darf der
+      Trichter nie leerlaufen. Gelangt Luft in den Homogenisator wird dieser besch\xE4digt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25494807912448
+    m_Localized: Stromkabel einstecken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25938477195264
+    m_Localized: "Viskosit\xE4t: Mittel (>500cp & <3000cp)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26236297945088
+    m_Localized: "Partikelgr\xF6sse: klein (\u2264500 \xB5m)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26629656551424
+    m_Localized: "Faserl\xE4nge: klein (\u22641mm)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26993088798720
+    m_Localized: Kaltwasserschlauch  anschliessen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27358181990400
+    m_Localized: "Wasserzufuhr \xF6ffnen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27672335360000
+    m_Localized: Sicherstellen, dass Wasser austritt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44425266339840
+    m_Localized: "Gehen Sie die obigen Punkte durch und stellen Sie sicher dass die
+      Maschine bereit ist f\xFCr die Inbetriebnahme."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

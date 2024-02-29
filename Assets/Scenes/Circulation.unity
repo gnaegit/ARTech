@@ -271,7 +271,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 698219606000682226, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_text
-      value: Am Produktauslauf den Hahn auf Zirkulation stellen.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4435240180776551733, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -360,6 +360,14 @@ PrefabInstance:
     - target: {fileID: 6304575350346002693, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324128044361971308, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 16594071199744
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324128044361971308, guid: 78a59afc60c6b174f975e1b59c640df1, type: 3}
+      propertyPath: m_UpdateString.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
