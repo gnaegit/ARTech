@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v7.0.6">
+        <ModelTarget name="UM3_maschinev1" targetId="2c41e55dc8894287b7b2e9b68eaeab2d" version="14.0" toolVersion="v7.0.6" bbox="-0.034955 -0.042412 -0.000071 0.034964 0.042443 0.145670" trackingMode="car" upVector="0.0 0.0 1.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="UM3_maschinev1" assemblyId="b54996eafba54604b4f2e56d1eb22e81">
+        <Part name="UM3_maschinev1" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

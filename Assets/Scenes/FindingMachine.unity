@@ -439,10 +439,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981430
 MonoBehaviour:
@@ -458,10 +458,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981431
 MonoBehaviour:
@@ -477,10 +477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981432
 MonoBehaviour:
@@ -496,10 +496,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981433
 MonoBehaviour:
@@ -515,10 +515,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981434
 MonoBehaviour:
@@ -534,10 +534,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 830981428}
   mHiddenRoot: {fileID: 0}
-  mTargetName: textured
-  mDatasetName: Vuforia/Maschine2.xml
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.90774906, y: 1.6489171, z: 1.158829}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
+  mModelTargetPreview: {fileID: 0}
+--- !u!114 &830981435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830981425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 830981428}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: UM3_maschinev1
+  mDatasetName: Vuforia/UM3_maschinev1.xml
+  mCastedBehaviour: {fileID: 830981428}
+  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!1001 &3468635782757251957
 PrefabInstance:
@@ -550,6 +569,62 @@ PrefabInstance:
     - target: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_Name
       value: Machine Target Singleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.09937412
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.09937412
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.09937412
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0894
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7069543
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.70725924
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00035802988
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000013899522
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0146
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0216
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 790356754616850537, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: mHiddenRoot
@@ -788,8 +863,72 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mWidth
+      value: 0.084855005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mHeight
+      value: 0.145741
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mLength
+      value: 0.069919
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 830981435}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBaseSize
+      value: 0.069919
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMax.x
+      value: 0.034964
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMax.y
+      value: 0.042443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMax.z
+      value: 0.14567
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMin.x
+      value: -0.034955
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMin.y
+      value: -0.042412
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mBBoxMin.z
+      value: -0.000071
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mMotionHint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/UM3_maschinev1.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mTrackingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mAspectRatioXY
+      value: 1.2136188
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mAspectRatioXZ
+      value: 2.0844264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mTrackableName
+      value: UM3_maschinev1
       objectReference: {fileID: 0}
     - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: RuntimeOcclusion
@@ -798,6 +937,14 @@ PrefabInstance:
     - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: mShowBoundingBox
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mHasRealisticTextures
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mTrackingOptimization
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -884,6 +1031,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 830981434}
+    - targetCorrespondingSourceObject: {fileID: 146877325684418933, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 830981435}
     - targetCorrespondingSourceObject: {fileID: 1475508347747047051, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
