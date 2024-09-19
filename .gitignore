@@ -71,5 +71,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Tarball packages
-*.tgz
+*.tgz # to big to push to git repo
+packages-lock.json # not neeeded auto generated
