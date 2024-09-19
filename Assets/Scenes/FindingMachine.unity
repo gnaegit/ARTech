@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402185, g: 0.49316466, b: 0.57223153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -442,7 +442,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981430
 MonoBehaviour:
@@ -461,7 +460,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981431
 MonoBehaviour:
@@ -480,7 +478,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981432
 MonoBehaviour:
@@ -499,7 +496,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981433
 MonoBehaviour:
@@ -518,7 +514,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981434
 MonoBehaviour:
@@ -537,7 +532,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!114 &830981435
 MonoBehaviour:
@@ -556,7 +550,6 @@ MonoBehaviour:
   mTargetName: UM3_maschinev1
   mDatasetName: Vuforia/UM3_maschinev1.xml
   mCastedBehaviour: {fileID: 830981428}
-  mModelScale: {x: 0.069919, y: 0.084855005, z: 0.145741}
   mModelTargetPreview: {fileID: 0}
 --- !u!1001 &3468635782757251957
 PrefabInstance:
@@ -572,55 +565,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.09937412
+      value: 0.09986
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.09937412
+      value: 0.09986
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.09937412
+      value: 0.09986
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0894
+      value: 0.089321
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7069543
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.70725924
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00035802988
+      value: -0.00012333828
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000013899522
+      value: 0.00012333828
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0146
+      value: 0.0147
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0216
+      value: 0.021591
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 89.98
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 179.979
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.002
+      value: 179.999
       objectReference: {fileID: 0}
     - target: {fileID: 611011574685748221, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -946,45 +939,49 @@ PrefabInstance:
       propertyPath: mTrackingOptimization
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7481017000692762077, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
+      propertyPath: mGuideViewDisplayModeNeedsUpgrade
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.013333205
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.038279936
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.017994948
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.68285656
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.26396716
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.33249068
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.59454036
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -1.997
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 50.213
       objectReference: {fileID: 0}
     - target: {fileID: 7998381456337769719, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 81.154
       objectReference: {fileID: 0}
     - target: {fileID: 8087895260334312491, guid: b2380320a3e5b7d4eb8a4e6fe6e9a6a7, type: 3}
       propertyPath: m_text
